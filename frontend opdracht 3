@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mijn Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Over ons</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <article>
+                <h2>Welkom op Mijn Blog</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum lacinia risus, eget tincidunt ipsum fermentum sed.</p>
+            </article>
+        </section>
+
+        <section id="about">
+            <article>
+                <h2>Over Ons</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum lacinia risus, eget tincidunt ipsum fermentum sed.</p>
+            </article>
+        </section>
+
+        <section id="blog">
+            <h2>Recente Berichten</h2>
+            <article>
+                <h3>Titel van Bericht</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#">Lees Meer</a>
+            </article>
+            <!-- Voeg meer berichten toe -->
+        </section>
+
+        <section id="contact">
+            <article>
+                <h2>Contact</h2>
+                <p>Neem contact met ons op voor vragen of opmerkingen.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mijn Blog. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
